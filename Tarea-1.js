@@ -1,7 +1,5 @@
 
 
-
-
 //Ejercicio 1: Realice una función que sume 2 números y me imprima el resultado
 function sumar(num1,num2){
     let resultado = num1 + num2;
@@ -51,3 +49,4 @@ function sumar(num1,num2){
     else console.log("No es palindromo" );
     }
     Palindrome("pizza")
+
