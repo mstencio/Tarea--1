@@ -41,12 +41,12 @@ function sumar(num1,num2){
 
 
   //Ejercicio extra 2: Realice una función que me diga si un string es palindromo
-  function Palindrome(texto) {
+  function Palindromo(texto) {
     let valores = texto.split("");
     let girarValores = valores.reverse();
     let textoGirado = girarValores.join("");
     if(texto == textoGirado) console.log("Si es palindromo");
     else console.log("No es palindromo" );
     }
-    Palindrome("pizza")
+    Palindromo("pizza")
 
